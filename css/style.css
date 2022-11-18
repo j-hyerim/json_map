@@ -1,0 +1,71 @@
+@charset 'utf-8';
+section{
+  margin: 0px;padding: 0px;
+  background-image: url(/public/images/phone.png);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+.header{
+  width: 540px;
+  height: 300px;
+  padding-top: 100px ;
+  margin: 0px auto;
+
+}
+.header h2{
+  padding-top: 50px;
+}
+
+.create{
+  width:360px;
+  margin: 0px auto;
+  position: relative;
+}
+.create p{
+  width: 300px;
+  margin: 10px auto;
+}
+label{
+  display: inline-block;
+  width: 120px;
+}
+#data{
+  width: 100px;
+  height: 35px;
+  color: #fff;
+  background-color: rgb(62, 62, 209);
+  border: none;
+  margin-left: 120px
+}
+.product_list{
+  width:400px;
+  margin: 0px auto;
+  padding: 0px 20px 0px 20px;
+}
+.product_list li{
+  list-style: none;
+  border-bottom:1px solid #333 ;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.product_list img{
+max-width: 100px;
+float: left;
+margin: 10px;
+}
+#clear{
+  display: block;
+  float: right;
+  width: 100px;
+  height: 35px;
+  background-color: rgb(218, 62, 62);
+  color: #fff;
+}
+
+#logo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
